@@ -6,6 +6,8 @@ El objetivo es realizar el maquetado de una onepage en base a un boceto:
 
 ![boceto](https://github.com/matiaschanquia/admin-one-page/blob/master/imgReadme/admin-boceto.jpg)
 
-El mismo boceto en base a una grillas:
+El mismo boceto en base a grillas:
 
 ![boceto con grillas](https://github.com/matiaschanquia/admin-one-page/blob/master/imgReadme/admin-boceto-grilla.jpg)
+
+Utilice Javascript para la sección de preguntas.
