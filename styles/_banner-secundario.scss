@@ -1,0 +1,41 @@
+
+.banner-secundario {
+    background: $color-rosa url("../img/banner-secundario.jpg") no-repeat scroll 0 0;
+    background-size: cover;
+}
+
+.container-banner-secundario {
+    margin: 0 auto;
+    width: 90%;
+    max-width: $width-principal;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.content-banner-secundario {
+    text-align: center;
+    color: #fff;
+    > h2 {
+        font-weight: 900;
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+    > button {
+        display: block;
+        margin: 0 auto;
+        border: none;
+        background-color: transparent;
+        > a {
+            display: inline-block;
+            background-color: $color-rosa;
+            border-radius: 20px;
+            color: #fff;
+            text-decoration: none;
+            padding: 6px 20px;
+            font-weight: 700;
+        }
+    }
+}

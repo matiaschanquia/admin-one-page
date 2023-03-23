@@ -1,0 +1,41 @@
+
+.sumate {
+    background-color: $color-rosa;
+}
+
+.container-sumate {
+    margin: 0 auto;
+    width: 90%;
+    max-width: $width-principal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.content-sumate {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    h3 {
+        flex-grow: 999;
+        color: #fff;
+        font-size: 23px;
+        font-weight: 700;
+    }
+    button {
+        border: none;
+        background-color: transparent;
+        a {
+            width: max-content;
+            display: inline-block;
+            text-decoration: none;
+            border: 1px solid #fff;
+            border-radius: 20px;
+            color: #fff;
+            padding: 6px 20px;
+            font-weight: 700;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;700;900&family=Open+Sans:wght@400;700&display=swap');
+
+$font-nunito: 'Nunito', sans-serif;
+$font-os:'Open Sans', sans-serif;
+$width-principal: 1000px;
+$color-gris: #E8E8E8;
+$color-rosa:  #E21982;
+$color-azul:  #22193F;
+
+html {
+    scroll-behavior: smooth;
+}
+
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: $font-nunito;
+}
+
+@import "header";
+@import "banner-principal";
+@import "conocenos";
+@import "ayuda";
+@import "sumate";
+@import "faqs";
+@import "banner-secundario";
+@import "footer";

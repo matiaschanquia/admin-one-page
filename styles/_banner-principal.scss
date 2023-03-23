@@ -1,0 +1,43 @@
+
+.banner-principal {
+    background: $color-rosa url("../img/banner-principal.jpg")  no-repeat scroll 0 0;
+    background-size: cover;
+}
+
+.container-banner-principal {
+    margin: 0 auto;
+    width: 90%;
+    max-width: $width-principal;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-banner {
+    font-family: $font-nunito;
+    text-align: center;
+    color: #fff;
+    h2 {
+        font-weight: 900;
+        font-size: 40px;
+    }
+    p {
+        margin: 20px 0 40px;
+        font-size: 22px;
+        font-family: $font-os;
+    }
+    button {
+        font-size: 16px;
+        border: none;
+        background-color: transparent;
+        a {
+            text-decoration: none;
+            background-color: $color-rosa;
+            border-radius: 20px;
+            color: #fff;
+            padding: 6px 20px;
+            font-weight: 700;
+        }
+    }
+}

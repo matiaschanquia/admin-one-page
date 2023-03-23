@@ -1,0 +1,45 @@
+
+.header- {
+    background-color: #fff;
+    border-bottom: 2px solid $color-gris;
+}
+
+.container-header {
+    width: 90%;
+    max-width: $width-principal;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px; 
+}
+
+.container-logo > h1 > img {
+    width: 100%;
+}
+
+.nav- {
+    font-size: 16px;
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li {
+            list-style: none;
+            text-align: center;
+            a {
+                display: inline-block;
+                text-decoration: none;
+                font-family: $font-nunito;
+                font-weight: 700;
+                color: black;
+                &.link-login {
+                    color: #fff;
+                    background-color: $color-rosa;
+                    border-radius: 20px;
+                    padding: 3px 30px;
+                }
+            }
+        }
+    }
+}

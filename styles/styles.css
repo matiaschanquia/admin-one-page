@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;700;900&family=Open+Sans:wght@400;700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+html * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+.header- {
+  background-color: #fff;
+  border-bottom: 2px solid #E8E8E8;
+}
+
+.container-header {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.container-logo > h1 > img {
+  width: 100%;
+}
+
+.nav- {
+  font-size: 16px;
+}
+.nav- ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav- ul li {
+  list-style: none;
+  text-align: center;
+}
+.nav- ul li a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  color: black;
+}
+.nav- ul li a.link-login {
+  color: #fff;
+  background-color: #E21982;
+  border-radius: 20px;
+  padding: 3px 30px;
+}
+
+.banner-principal {
+  background: #E21982 url("../img/banner-principal.jpg") no-repeat scroll 0 0;
+  background-size: cover;
+}
+
+.container-banner-principal {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-banner {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  color: #fff;
+}
+.content-banner h2 {
+  font-weight: 900;
+  font-size: 40px;
+}
+.content-banner p {
+  margin: 20px 0 40px;
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+}
+.content-banner button {
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+}
+.content-banner button a {
+  text-decoration: none;
+  background-color: #E21982;
+  border-radius: 20px;
+  color: #fff;
+  padding: 6px 20px;
+  font-weight: 700;
+}
+
+.conocenos {
+  background: linear-gradient(to bottom, #E8E8E8, #a9a9a9);
+}
+
+.container-conocenos {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.content-conocenos {
+  text-align: center;
+}
+.content-conocenos h3 {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #E21982;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.content-conocenos h2 {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.content-conocenos p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.ayuda {
+  background-color: #fff;
+}
+
+.container-ayuda {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.content-ayuda {
+  width: 100%;
+  text-align: center;
+}
+
+.content-ayuda > h3 {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #E21982;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.content-ayuda > h2 {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.items-content-ayuda {
+  width: 100%;
+  display: flex;
+}
+.items-content-ayuda .item img {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 80px;
+  margin-bottom: 10px;
+}
+.items-content-ayuda .item h3 {
+  color: #E21982;
+  font-weight: 900;
+  font-size: 28px;
+}
+.items-content-ayuda .item p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+@media (max-width: 767px) {
+  .items-content-ayuda {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+.sumate {
+  background-color: #E21982;
+}
+
+.container-sumate {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.content-sumate {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+.content-sumate h3 {
+  flex-grow: 999;
+  color: #fff;
+  font-size: 23px;
+  font-weight: 700;
+}
+.content-sumate button {
+  border: none;
+  background-color: transparent;
+}
+.content-sumate button a {
+  width: max-content;
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  color: #fff;
+  padding: 6px 20px;
+  font-weight: 700;
+}
+
+.faqs {
+  background-color: #E8E8E8;
+}
+
+.container-faqs {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.content-faqs {
+  width: 100%;
+}
+.content-faqs > h3 {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #E21982;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-align: center;
+}
+.content-faqs > h2 {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.content-faqs .preguntas-img {
+  align-items: center;
+}
+.content-faqs .preguntas-img > .preguntas {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.content-faqs .preguntas-img > .preguntas > .pregunta {
+  cursor: pointer;
+  padding: 10px 14px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 4px 0px rgba(78, 78, 78, 0.1019607843);
+}
+.content-faqs .preguntas-img > .preguntas > .pregunta > h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+}
+.content-faqs .preguntas-img > .preguntas > .pregunta > i {
+  color: #E21982;
+  transition: transform 0.2s linear;
+}
+.content-faqs .preguntas-img > .preguntas > .pregunta > p {
+  position: absolute;
+  display: none;
+  font-size: 16px;
+  background-color: #fff;
+  top: 100%;
+  left: 0;
+  z-index: 999;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  padding: 0 14px 10px;
+  border-radius: 0 0 6px 6px;
+  cursor: default;
+}
+.content-faqs .preguntas-img > .preguntas > .pregunta.active {
+  border-radius: 6px 6px 0 0;
+}
+.content-faqs .preguntas-img > .preguntas > .pregunta.active > p {
+  display: block;
+}
+.content-faqs .preguntas-img > .preguntas > .pregunta.active i {
+  transform: rotateX(180deg);
+}
+.content-faqs .preguntas-img > .img > img {
+  display: block;
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.banner-secundario {
+  background: #E21982 url("../img/banner-secundario.jpg") no-repeat scroll 0 0;
+  background-size: cover;
+}
+
+.container-banner-secundario {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.content-banner-secundario {
+  text-align: center;
+  color: #fff;
+}
+.content-banner-secundario > h2 {
+  font-weight: 900;
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+.content-banner-secundario > button {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  background-color: transparent;
+}
+.content-banner-secundario > button > a {
+  display: inline-block;
+  background-color: #E21982;
+  border-radius: 20px;
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 20px;
+  font-weight: 700;
+}
+
+.footer- {
+  background-color: #22193F;
+}
+
+.container-footer- {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
+  padding: 40px 0 20px;
+}
+
+.content-footer {
+  text-align: center;
+  color: #fff;
+}
+.content-footer > .links-redes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-footer > .links-redes > .links {
+  display: flex;
+  gap: 20px;
+}
+.content-footer > .links-redes > .links > li {
+  list-style: none;
+}
+.content-footer > .links-redes > .links > li > a {
+  text-decoration: none;
+  color: #fff;
+}
+.content-footer > .links-redes > .redes {
+  display: flex;
+  gap: 10px;
+}
+.content-footer > .links-redes > .redes > span {
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.content-footer > .links-redes > .redes > span > i {
+  padding-top: 2px;
+  color: #E21982;
+  font-size: 15px;
+  margin: auto;
+}
+.content-footer .divisor {
+  color: #fff;
+  opacity: 1;
+  margin: 30px 0 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */
